@@ -7,23 +7,72 @@
     <style>
             
         body{
-            margin-left: 50px;
+            margin:0;
+            padding:0;
+            background-color: #efeee7;
+            font-family: Georgia;
+            color: #333333;
         }
+        header {
+            background-color: #333333
+            
+        }
+        .container{
+            width:1024px;
+            margin:0 auto;
+            line-height: 1.5em;
+        }
+        h1{
+            color: #eee ;
+            text-align: center;
+            font-size: 28px;
+           
+        }
+        a{
+            color:#d21034;
+        }
+        h2 {
+            font-size: 24px;
+            margin-left: 20px;
+          
+        }
+        #main-bio {
+            float:left;
+            width: 70%;
+        }
+
+        #bio-image {
+            float:left;
+            width:200px;
+            margin: 0px 20px 20px;
+        }
+        #contact-info {
+            float:left;
+            width: 30%;
+        }
+       
     </style>
 </head>
 <body>
-    <h1>Student Bio</h1>
-    <h2>Jesal Mehta</h2>
-    <img src="https://via.placeholder.com/200" alt="placeholder image">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+    <header>
+        <h1>Student Bio</h1>
+    </header> 
+    <div class="container"> 
+     <section id="main-bio">
+       <h2>Jesal Mehta</h2>
+       <img id="bio-image" src="https://via.placeholder.com/200" alt="placeholder image">
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
 
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-
-    <h2>Contact Info</h2>
-       <ul>
-           <li><strong>Email:</strong><a href="#"> jesaldmehta@gmail.com</a></li>                            
-           <li><strong>Github:</strong><a href="https://github.com/JesalDM/" target="_blank"> Jesal Mehta</a></li>                    
-           <li><strong>Portfolio:</strong><a href="#"> Coming soon!</a></li>                
-       </ul>
+       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+     </section>
+     <section id="contact-info">
+        <h2>Contact Info</h2>
+            <ul>
+             <li><strong>Email:</strong><a href="#"> jesaldmehta@gmail.com</a></li>                            
+             <li><strong>Github:</strong><a href="https://github.com/JesalDM/" target="_blank"> Jesal Mehta</a></li>                    
+             <li><strong>Portfolio:</strong><a href="#"> Coming soon!</a></li>                
+            </ul>
+     </section>
+    </div> 
 </body>
 </html>
